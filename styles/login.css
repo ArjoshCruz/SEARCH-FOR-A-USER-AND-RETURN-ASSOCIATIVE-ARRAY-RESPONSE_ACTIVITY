@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family:'Roboto', sans-serif;
+    background-color: #e6e6e6;
+    overflow-x: hidden;
+
+    background-image: url('login-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header */
+header {
+    background-color: #033669;
+}
+
+header h1 {
+    color: #edde79;
+    text-align: center;
+    font-size: 50px;
+
+    padding: 30px;
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    padding: 40px 0px 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 50px;
+}
+
+.A {
+    color: #ffb3ba;
+}
+
+.B {
+    color: #ffffba;
+}
+
+.C {
+    color: #baffc9;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+/* Form */
+.form-div {
+    background-color: rgba(251, 253, 255, 0.71);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 30px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form elements styling */
+form {
+    width: 100%;
+}
+
+form p {
+    margin-bottom: 20px;
+}
+
+p {
+    position: relative;
+}
+
+input[type="text"],
+input[type="password"]
+ {
+    width: 90%;
+    padding: 16px 0 16px 50px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+
+}
+
+i {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+/* Submit button styling */
+.btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.submit-btn {
+    background-color: #033669;
+    color: #edde79;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0d2334;
+}
+
+/* Link styling */
+.form-div > p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-div a {
+    color: #033669;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-div a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+h1[style*="color: red"] {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: #40de21;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+i {
+    top: 0px;
+    left: 38px;
+}
